@@ -10,7 +10,7 @@ function Footer() {
         </Link>{' '}
         |{' '}
         <Link className="mx-1" to="/about-us">
-          About Us
+          About
         </Link>{' '}
         |{' '}
         <Link className="mx-1" to="/terms">
@@ -18,7 +18,7 @@ function Footer() {
         </Link>
       </p>
       <p className="m-0">
-        Copyright &copy; 2020{' '}
+        Copyright &copy; {new Date().getFullYear()}{' '}
         <a href="/" className="text-muted">
           Socialite
         </a>
